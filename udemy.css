@@ -703,6 +703,15 @@ hr {
   height: 33vh;
   display: flex;
 }
+.box-holder-1-inside-2 {
+  width: 17.4vw;
+  height: 33vh;
+  display: flex;
+  justify-content: center;
+}
+.uu-uu {
+  width: 16vw;
+}
 .main-text-i {
   width: 17.4vw;
   height: 5vh;
@@ -1053,6 +1062,6 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
-.site-image small{
+.site-image small {
   color: #fff;
 }

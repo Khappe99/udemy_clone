@@ -11,6 +11,9 @@
   width: 100%;
   height: 7vh;
 }
+.SECTION1 img:hover {
+  cursor: pointer;
+}
 .SECTION1 p {
   font-weight: 500;
   font-family: sans-serif;
@@ -82,6 +85,7 @@
   font-weight: 600;
 }
 .itmbu:hover {
+  cursor: pointer;
   opacity: 0.8;
 }
 .two {
@@ -102,6 +106,8 @@
 .cart {
   font-size: 22px;
 }
+.cart:hover {
+}
 .four {
   display: flex;
   justify-content: space-around;
@@ -121,6 +127,7 @@
   border: 1px solid #9b9494;
 }
 .ii:hover {
+  cursor: pointer;
   opacity: 0.8;
   background-color: green;
 }
@@ -133,6 +140,7 @@
   border: 1px solid #000;
 }
 .iii:hover {
+  cursor: pointer;
   opacity: 0.8;
   background-color: green;
 }
@@ -141,6 +149,7 @@
   height: 40px;
 }
 .iv:hover {
+  cursor: pointer;
   opacity: 0.8;
   background-color: green;
 }
@@ -370,6 +379,9 @@ a:hover {
   background: transparent;
   border: 1px solid #000;
 }
+.COU-CON-button:hover {
+  cursor: pointer;
+}
 .SUBJECT-BOX {
   display: FLEX;
   justify-content: space-between;
@@ -379,6 +391,9 @@ a:hover {
 .SUBJECTS {
   width: 13vw;
   height: 27.5vh;
+}
+.SUBJECTS:hover {
+  cursor: pointer;
 }
 .pics-one {
   width: 100%;
@@ -568,10 +583,15 @@ hr {
   display: flex;
   justify-content: space-between;
 }
-
+.subject-select-2:hover {
+  cursor: pointer;
+}
 .SUBJECTS-TWO {
   width: 13.5vw;
   height: 27.5vh;
+}
+.SUBJECTS-TWO:hover {
+  cursor: pointer;
 }
 .fig-main-3 {
   height: 12vh;
@@ -636,6 +656,7 @@ hr {
   overflow: hidden;
 }
 .jpg-images:hover {
+  cursor: pointer;
   transform: scale(1.01);
 }
 .box-holder-text {
@@ -644,11 +665,11 @@ hr {
   font-weight: bold;
 }
 .pics:hover {
-  opacity: 0.5;
+  opacity: 0.8;
   background-color: #726b6b;
 }
 .pics-two:hover {
-  opacity: 0.5;
+  opacity: 0.8;
   background-color: #726b6b;
 }
 .pics-one:hover {
@@ -726,6 +747,9 @@ hr {
   font-weight: bold;
   font-family: sans-serif;
 }
+.style-me:hover {
+  cursor: pointer;
+}
 .small-small {
   font-size: 17px;
   color: #6a6f73;
@@ -741,7 +765,9 @@ hr {
 }
 .explore:hover {
   opacity: 0.5;
+  cursor: pointer;
   color: #000;
+  cursor: pointer;
   /* background-color: #726b6b; */
 }
 .main-text {
@@ -965,16 +991,19 @@ hr {
 }
 .but-one:hover {
   opacity: 0.5;
+  cursor: pointer;
 }
 .but-two:hover {
   opacity: 0.5;
+  cursor: pointer;
   background-color: #494c4e;
 }
 .but-4:hover {
-  opacity: 0.5;
+  opacity: 0.8;
+  cursor: pointer;
 }
 footer {
-  background: #000;
+  background: #1c1d1f;
   width: 99vw;
   height: 35vh;
 }
@@ -1035,7 +1064,7 @@ footer {
 .but-aa {
   width: 9vw;
   height: 5vh;
-  background: #000;
+  background: #1c1d1f;
   border: 1px solid white;
   align-items: center;
   justify-content: center;
@@ -1043,6 +1072,10 @@ footer {
   gap: 5px;
   font-size: 20px;
   color: #fff;
+}
+.but-aa:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 .but-aa p {
   font-family: sans-serif;
@@ -1055,7 +1088,6 @@ footer {
   align-items: center;
 }
 .site-image {
-  border: 1px solid white;
   width: 96vw;
   height: 6vh;
   display: flex;
